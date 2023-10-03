@@ -1,0 +1,63 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none; /* 리스트 점 제거 */
+    text-decoration-line: none; /* 링크 밑 줄 없애기 */
+    color: inherit; /* 링크 색상 제거 */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+}
+
+.nav {
+    width: auto;
+    height: 90px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #FAF4BE;
+}
+
+.nav-category {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-title-text {
+    margin: 20px 788px 20px 33px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-category-text {
+    margin-top: 32px;
+    margin-right: 65px;
+}
+
+#edit-title {
+    width: 1160px;
+    height: 80px;
+    margin: 25px 20px 23px;
+    /* margin-left: 20px;
+    margin-bottom: 23px; */
+    border: none;
+    padding: 0px 40px;
+    font-size: 15px;
+}
+
+#edit-contents {
+    width: 1160px;
+    height: 300px;
+    border: none;
+    margin-left: 20px;
+    padding: 0px 40px;
+    font-size: 15px;
+}
+
+.post-title input {
+    display: block;
+    outline: none;
+    /* flex-direction: column; */
+}
