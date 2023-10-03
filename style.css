@@ -1,0 +1,116 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none; /* 리스트 점 제거 */
+    text-decoration-line: none; /* 링크 밑 줄 없애기 */
+    color: inherit; /* 링크 색상 제거 */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+}
+
+.nav {
+    width: auto;
+    height: 90px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #FAF4BE;
+}
+
+.title-text {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-left: 343px;
+    margin-right: 157px;
+}
+
+.category-1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.category-text-1 {
+    margin-top: 32px;
+    margin-left: 65px; 
+}
+
+.category-2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.category-text-2 {
+    margin-top: 32px;
+    margin-right: 36px;
+}
+
+.content-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 70px;
+}
+
+.profile {
+    width: 300px;
+    height: 340px;
+    margin-right: 31px;
+    margin-left: 209px;
+    background-color: #FFF;
+}
+
+.profile-text {
+    width: 560px;
+    height: 260px;
+    padding-top: 80px;
+    font-weight: 500;
+    background-color: #FFF;
+}
+
+.profile-text > p {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.login-box {
+    width: 470px;
+    height: auto;
+    margin-left: 406px;
+}
+
+.login-box input {
+    width: 430px;
+    height: 60px;
+    background: #FFF;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+    padding: 0px 20px;
+}
+
+.login-etc {
+    display: flex;
+    font-size: 14px;
+    margin-left: 143px;
+    margin-bottom: 24px;
+}
+
+.login-etc > p {
+    margin-right: 76px;
+}
+
+.login-btn {
+    width: 210px;
+    height: 70px;
+    border: none;
+    background-color: #FAF4BE;
+    margin-left: 129px;
+    font-size: 15px;
+}
