@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wlhehe blog</title>
+</head>
+<body>
+    <h1>게시물 삭제</h1>
+    <p>게시물을 삭제하시겠습니까?</p>
+    <p>Title: {{ post.title }}</p>
+    <p>Content: {{ post.content }}</p>
+    <form method="POST" action="{% url 'post_delete_view' post.id %}">
+        {% csrf_token %}
+        <input type="submit" value="삭제">
+    </form>
+</body>
+</html>
